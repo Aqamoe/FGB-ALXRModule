@@ -1,0 +1,14 @@
+{
+  "ModuleId": "com.fgbbridge.alxr-local",
+  "ModuleName": "ALXR (OpenXR Local)",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "通过 libalxr（alxr_engine.dll）在 PC 上建立 headless OpenXR 会话，直接读取 FB / FB_V2 / HTC / EXT / Android 面捕与眼动扩展，输出 Unified Expressions 表情、双眼睁眼度与注视方向。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. 把活动 OpenXR 运行时设为目标运行时（Quest Link/AirLink、VDXR 等），头显已连接并处于活动状态。2. 本模块运行时加载 alxr_engine.dll（libalxr，需与声明的 ABI 相符）：随对应串流/运行时软件安装，或把它放到模块目录旁。3. 关闭 VRCFaceTracking，避免同一运行时被两个 headless 会话抢占。4. 在「模块」页把 ALXR (OpenXR Local) 设为启动并重启引擎；初始化失败会每 2 秒重试、最多 10 次。本模块为社区未验证实现。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-ALXRModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "alxr-local.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["expression", "eyes"],
+  "RoleHint": "expression"
+}

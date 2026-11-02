@@ -1,0 +1,11 @@
+FGB ALXRModule
+Copyright 2026 Aqamoe (光水)
+
+This product includes a copy of fgb_module_api.h from FaceGaze Bridge
+(https://github.com/Aqamoe/FaceGaze-Bridge), licensed under the Apache
+License 2.0.
+
+Upstream protocol and mapping decisions were informed by the ALXR wire format as
+documented by the upstream projects VRCFT-ALXR-Modules and libalxr-sharp
+(https://github.com/korejan/). Those are independent projects; this repository
+is an independent C++ implementation and contains no source code from them.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="ALXR Local">
+  <title>ALXR Local</title>
+  <desc>头显轮廓加本地直连脉冲，透明背景，中性灰在深浅主题下都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 50 h80 a10 10 0 0 1 10 10 v18 a10 10 0 0 1 -10 10 h-22 l-12 -12 h-12 l-12 12 h-22 a10 10 0 0 1 -10 -10 v-18 a10 10 0 0 1 10 -10 z" />
+    <circle cx="46" cy="66" r="6" />
+    <circle cx="82" cy="66" r="6" />
+    <path d="M20 34 q10 -10 20 0" />
+    <path d="M88 34 q10 -10 20 0" />
+    <path d="M64 88 v16" />
+    <path d="M52 104 h24" />
+  </g>
+</svg>

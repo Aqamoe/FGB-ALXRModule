@@ -1,0 +1,14 @@
+{
+  "ModuleId": "com.fgbbridge.alxr-remote",
+  "ModuleName": "ALXR (OpenXR Remote)",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "连接串流端（头显上的 ALXR 客户端）的 TCP 端口 49192，接收 ALXRFacialEyePacket，输出 Unified Expressions 表情、双眼睁眼度与注视方向。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. 头显端的 ALXR 客户端开启面捕/眼捕推送（PC 是主动连接方，需要头显的局域网 IP 与端口 49192，具体开关依客户端版本而定，社区未验证）。2. 关闭 VRCFaceTracking：它的 ALXR Remote 模块会连同一端口。3. 在模块目录 config.ini 填 ip = 头显IP。4. 在「模块」页把 ALXR (OpenXR Remote) 设为启动并重启引擎，串流端在线后模块卡片显示已连接。本模块为社区未验证实现。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-ALXRModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "alxr-remote.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["expression", "eyes"],
+  "RoleHint": "expression"
+}

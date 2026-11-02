@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="ALXR Remote">
+  <title>ALXR Remote</title>
+  <desc>头显向右发射无线信号，透明背景，中性灰在深浅主题下都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 50 h64 a10 10 0 0 1 10 10 v10 a10 10 0 0 1 -10 10 h-16 l-8 -8 h-8 l-8 8 h-24 a10 10 0 0 1 -10 -10 v-10 a10 10 0 0 1 10 -10 z" />
+    <circle cx="34" cy="65" r="5" />
+    <circle cx="62" cy="65" r="5" />
+    <path d="M98 50 a14 14 0 0 1 14 14" />
+    <path d="M102 38 a26 26 0 0 1 22 26" />
+    <path d="M98 80 a14 14 0 0 0 14 -14" />
+    <path d="M102 92 a26 26 0 0 0 22 -26" />
+  </g>
+</svg>
